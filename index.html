@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayan Faiz | Cyber Security Analyst</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Matrix Rain Background -->
+    <canvas id="matrix-rain"></canvas>
+    
+    <!-- Terminal Boot Sequence -->
+    <div class="boot-sequence">
+        <div class="boot-text"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-brackets">[</span>
+                <span class="logo-text">AYAN.FAIZ</span>
+                <span class="logo-brackets">]</span>
+                <span class="cursor-blink">_</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link"><span class="nav-icon">&gt;</span> HOME</a></li>
+                <li><a href="#about" class="nav-link"><span class="nav-icon">&gt;</span> ABOUT</a></li>
+                <li><a href="#skills" class="nav-link"><span class="nav-icon">&gt;</span> SKILLS</a></li>
+                <li><a href="#projects" class="nav-link"><span class="nav-icon">&gt;</span> PROJECTS</a></li>
+                <li><a href="#certifications" class="nav-link"><span class="nav-icon">&gt;</span> CERTS</a></li>
+                <li><a href="#contact" class="nav-link"><span class="nav-icon">&gt;</span> CONTACT</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="terminal-window">
+            <div class="terminal-header">
+                <span class="terminal-button red"></span>
+                <span class="terminal-button yellow"></span>
+                <span class="terminal-button green"></span>
+                <span class="terminal-title">root@ayanfaiz:~</span>
+            </div>
+            <div class="terminal-body">
+                <div class="terminal-line">
+                    <span class="prompt">$</span>
+                    <span class="command">./access_portfolio.sh</span>
+                </div>
+                <div class="terminal-output">
+                    <div class="access-granted">
+                        <span class="glitch" data-text="ACCESS GRANTED">ACCESS GRANTED</span>
+                    </div>
+                    <div class="welcome-text">Welcome to <span class="highlight">Ayan Faiz's</span> Cyber Terminal</div>
+                </div>
+                <div class="hero-content">
+                    <h1 class="hero-title typing-effect">
+                        <span class="text-green">Future Cyber Security Analyst</span> | 
+                        <span class="text-blue">Ethical Hacker</span> | 
+                        <span class="text-red">Digital Guardian</span>
+                    </h1>
+                    <p class="hero-subtitle">Breaking into cyber security with a sharp mind, secure code, and a mission to defend.</p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            <i class="fas fa-terminal"></i> View Projects
+                        </a>
+                        <a href="assets/Resume.pdf" class="btn btn-secondary" download>
+                            <i class="fas fa-download"></i> Download Resume
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hex-grid">
+            <div class="hex"></div>
+            <div class="hex"></div>
+            <div class="hex"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title glitch" data-text="ABOUT://ME">ABOUT://ME</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-terminal">
+                    <div class="terminal-window compact">
+                        <div class="terminal-header">
+                            <span class="terminal-title">user_profile.json</span>
+                        </div>
+                        <div class="terminal-body">
+                            <pre class="json-content">{
+  <span class="json-key">"name"</span>: <span class="json-string">"Ayan Faiz"</span>,
+  <span class="json-key">"role"</span>: <span class="json-string">"CS Student & Aspiring Cyber Security Analyst"</span>,
+  <span class="json-key">"location"</span>: <span class="json-string">"Kanpur, India"</span>,
+  <span class="json-key">"education"</span>: <span class="json-string">"B.Tech @ PSIT (2022-Present)"</span>,
+  <span class="json-key">"experience"</span>: <span class="json-string">"Goldman Sachs SWE Intern"</span>,
+  <span class="json-key">"skills"</span>: [
+    <span class="json-string">"Full Stack Development"</span>,
+    <span class="json-string">"Security Analysis"</span>,
+    <span class="json-string">"Ethical Hacking"</span>,
+    <span class="json-string">"Digital Forensics"</span>
+  ],
+  <span class="json-key">"traits"</span>: {
+    <span class="json-key">"analytical_thinking"</span>: <span class="json-number">95</span>,
+    <span class="json-key">"attention_to_detail"</span>: <span class="json-number">98</span>,
+    <span class="json-key">"ethical_mindset"</span>: <span class="json-number">100</span>,
+    <span class="json-key">"problem_solving"</span>: <span class="json-number">92</span>
+  }
+}</pre>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <p class="about-description">
+                        A Computer Science student specializing in Full Stack Development, with strong expertise in front-end and back-end technologies. 
+                        Confident in problem-solving, data structures, and algorithms (DSA), and adept at building scalable web applications.
+                    </p>
+                    <p class="about-description">
+                        Currently transitioning into cybersecurity with a focus on ethical hacking, penetration testing, and security analysis.
+                        Known for a proactive approach, strong coding skills, and focus on efficient, user-centric solutions.
+                    </p>
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <i class="fas fa-code"></i>
+                            <h3>500+</h3>
+                            <p>Lines of Secure Code</p>
+                        </div>
+                        <div class="stat-card">
+                            <i class="fas fa-shield-alt"></i>
+                            <h3>10+</h3>
+                            <p>Security Projects</p>
+                        </div>
+                        <div class="stat-card">
+                            <i class="fas fa-bug"></i>
+                            <h3>50+</h3>
+                            <p>Vulnerabilities Found</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title glitch" data-text="SKILLS://MATRIX">SKILLS://MATRIX</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="skills-grid">
+                <!-- Programming Languages -->
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-code"></i> PROGRAMMING_LANGUAGES
+                    </h3>
+                    <div class="skill-bars">
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Python</span>
+                                <span class="skill-percent">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">C/C++</span>
+                                <span class="skill-percent">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Bash/Shell</span>
+                                <span class="skill-percent">75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">JavaScript</span>
+                                <span class="skill-percent">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Security Tools -->
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-shield-alt"></i> SECURITY_TOOLS
+                    </h3>
+                    <div class="tool-grid">
+                        <div class="tool-item">
+                            <i class="fas fa-linux"></i>
+                            <span>Kali Linux</span>
+                        </div>
+                        <div class="tool-item">
+                            <i class="fas fa-network-wired"></i>
+                            <span>Wireshark</span>
+                        </div>
+                        <div class="tool-item">
+                            <i class="fas fa-search"></i>
+                            <span>Nmap</span>
+                        </div>
+                        <div class="tool-item">
+                            <i class="fas fa-bug"></i>
+                            <span>Burp Suite</span>
+                        </div>
+                        <div class="tool-item">
+                            <i class="fas fa-rocket"></i>
+                            <span>Metasploit</span>
+                        </div>
+                        <div class="tool-item">
+                            <i class="fas fa-key"></i>
+                            <span>John the Ripper</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Technologies -->
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-server"></i> TECH_STACK
+                    </h3>
+                    <div class="tech-tags">
+                        <span class="tech-tag">React.js</span>
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">MongoDB</span>
+                        <span class="tech-tag">MySQL</span>
+                        <span class="tech-tag">Docker</span>
+                        <span class="tech-tag">Git</span>
+                        <span class="tech-tag">Linux</span>
+                        <span class="tech-tag">Blockchain</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title glitch" data-text="PROJECTS://SHOWCASE">PROJECTS://SHOWCASE</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-link"></i>
+                        <h3>ScanChain</h3>
+                    </div>
+                    <div class="project-content">
+                        <p class="project-description">
+                            Blockchain-based malware detection system. Detect and block malware messages using decentralized security protocols.
+                        </p>
+                        <div class="project-tech">
+                            <span class="                        <div class="project-tech">
+                                <span class="tech-badge">Node.js</span>
+                                <span class="tech-badge">C++</span>
+                                <span class="tech-badge">React</span>
+                                <span class="tech-badge">Blockchain</span>
+                            </div>
+                            <div class="project-stats">
+                                <div class="stat">
+                                    <i class="fas fa-code-branch"></i>
+                                    <span>Backend Security</span>
+                                </div>
+                                <div class="stat">
+                                    <i class="fas fa-database"></i>
+                                    <span>MongoDB</span>
+                                </div>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/ayan-faiz/Scanchain" class="project-link">
+                                    <i class="fab fa-github"></i> View Code
+                                </a>
+                                <a href="https://scanchain.vercel.app" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i> Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- Project 2 -->
+                    <div class="project-card">
+                        <div class="project-header">
+                            <i class="fas fa-home"></i>
+                            <h3>Rentallacious</h3>
+                        </div>
+                        <div class="project-content">
+                            <p class="project-description">
+                                Secure rental platform with smart contracts. Provides rent terms and conditions for both customers and providers with enhanced security.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-badge">Python</span>
+                                <span class="tech-badge">Web Development</span>
+                                <span class="tech-badge">Smart Contracts</span>
+                            </div>
+                            <div class="project-stats">
+                                <div class="stat">
+                                    <i class="fas fa-lock"></i>
+                                    <span>Secure Transactions</span>
+                                </div>
+                                <div class="stat">
+                                    <i class="fas fa-users"></i>
+                                    <span>Multi-user System</span>
+                                </div>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <i class="fab fa-github"></i> View Code
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i> Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- Project 3 -->
+                    <div class="project-card">
+                        <div class="project-header">
+                            <i class="fas fa-sync"></i>
+                            <h3>Worksync</h3>
+                        </div>
+                        <div class="project-content">
+                            <p class="project-description">
+                                Blockchain-enabled decentralized freelancing platform with trustless smart contracts for secure transactions.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-badge">Blockchain</span>
+                                <span class="tech-badge">Smart Contracts</span>
+                                <span class="tech-badge">DeFi</span>
+                            </div>
+                            <div class="project-stats">
+                                <div class="stat">
+                                    <i class="fas fa-shield-alt"></i>
+                                    <span>Decentralized</span>
+                                </div>
+                                <div class="stat">
+                                    <i class="fas fa-handshake"></i>
+                                    <span>Trustless System</span>
+                                </div>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/ayan-faiz/Worksync" class="project-link">
+                                    <i class="fab fa-github"></i> View Code
+                                </a>
+                                <a href="https://worksync-zeta.vercel.app" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i> Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <!-- Certifications Section -->
+        <section id="certifications" class="certifications">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title glitch" data-text="CERTIFICATIONS://ACHIEVEMENTS">CERTIFICATIONS://ACHIEVEMENTS</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3 class="cert-title">
+                                <i class="fas fa-certificate"></i> HTML5 - The Language
+                            </h3>
+                            <p class="cert-issuer">Infosys Programming</p>
+                            <p class="cert-description">Fundamentals using Python by Infosys</p>
+                            <span class="cert-date">2023</span>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3 class="cert-title">
+                                <i class="fas fa-certificate"></i> Full Stack Development
+                            </h3>
+                            <p class="cert-issuer">Udemy</p>
+                            <p class="cert-description">Comprehensive full stack web development course</p>
+                            <span class="cert-date">2023</span>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3 class="cert-title">
+                                <i class="fas fa-certificate"></i> Data Structures & Algorithms
+                            </h3>
+                            <p class="cert-issuer">Python - Part 1</p>
+                            <p class="cert-description">Advanced DSA concepts and implementation</p>
+                            <span class="cert-date">2023</span>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3 class="cert-title">
+                                <i class="fas fa-certificate"></i> Goldman Sachs Software Engineering
+                            </h3>
+                            <p class="cert-issuer">Goldman Sachs</p>
+                            <p class="cert-description">Completion of Software Engineering Virtual Experience Program</p>
+                            <span class="cert-date">2025</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title glitch" data-text="CONTACT://PING_ME">CONTACT://PING_ME</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="contact-content">
+                    <div class="contact-terminal">
+                        <div class="terminal-window">
+                            <div class="terminal-header">
+                                <span class="terminal-title">contact_form.sh</span>
+                            </div>
+                            <div class="terminal-body">
+                                <form id="contact-form" class="terminal-form">
+                                    <div class="form-group">
+                                        <span class="prompt">$</span>
+                                        <label>set NAME=</label>
+                                        <input type="text" id="name" required placeholder="your_name">
+                                    </div>
+                                    <div class="form-group">
+                                        <span class="prompt">$</span>
+                                        <label>set EMAIL=</label>
+                                        <input type="email" id="email" required placeholder="your@email.com">
+                                    </div>
+                                    <div class="form-group">
+                                        <span class="prompt">$</span>
+                                        <label>echo MESSAGE &gt;&gt;</label>
+                                        <textarea id="message" required placeholder="Your message here..."></textarea>
+                                    </div>
+                                    <div class="form-group">
+                                        <button type="submit" class="submit-btn">
+                                            <i class="fas fa-paper-plane"></i> ./send_message.sh
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-info">
+                        <div class="info-card">
+                            <h3>Connect With Me</h3>
+                            <div class="contact-links">
+                                <a href="tel:+919794793514" class="contact-link">
+                                    <i class="fas fa-phone"></i>
+                                    <span>+91 9794793514</span>
+                                </a>
+                                <a href="mailto:ayanfaiz772@gmail.com" class="contact-link">
+                                    <i class="fas fa-envelope"></i>
+                                    <span>ayanfaiz772@gmail.com</span>
+                                </a>
+                                <a href="https://linkedin.com/in/ayan-faiz-343a8a333" class="contact-link">
+                                    <i class="fab fa-linkedin"></i>
+                                    <span>LinkedIn Profile</span>
+                                </a>
+                                <a href="https://github.com/yourusername" class="contact-link">
+                                    <i class="fab fa-github"></i>
+                                    <span>GitHub Repository</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="security-notice">
+                            <i class="fas fa-lock"></i>
+                            <p>All communications are encrypted and secure</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <p>&copy; 2024 Ayan Faiz | Built with <span class="text-red">♥</span> and <span class="text-green">security</span> in mind</p>
+                    <p class="footer-tech">Powered by <span class="text-green">React</span> | <span class="text-blue">Tailwind</span> | <span class="text-red">Passion</span></p>
+                </div>
+            </div>
+        </footer>
+    
+        <script src="script.js"></script>
+    </body>
+    </html>
